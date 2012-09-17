@@ -30,7 +30,7 @@ class DataCalculator
   def median
     length = @values.length
     sorted_values = @values.sort
-    median = length % 2 == 1 ? sorted_values[len/2] : (sorted_values[length/2 - 1] + sorted_values[length/2]).to_f / 2
+    median = length % 2 == 1 ? sorted_values[length/2] : (sorted_values[length/2 - 1] + sorted_values[length/2]).to_f / 2
     median
   end
   
